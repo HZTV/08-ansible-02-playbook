@@ -90,7 +90,7 @@
         owner: root
         group: root
         mode: "0755"
-# Для перезапуска вектора. Если так делать не надо, подскажите как нужно. notify: в модуле ansible.builtin.template: не работает
+# Для перезапуска вектора.
   post_tasks:   
     - name: Start vector service
       become: true
