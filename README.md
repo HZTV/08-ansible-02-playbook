@@ -18,9 +18,11 @@ vector:
       ansible_user: ubuntu
 ```
 ## Terraform
+```
 В main.tf написан шаблон, по которому создается и заполнятеся файл prod.yml.
 В var.tf - все переменные для terrafom кода.
 В instance.tf - создаются ВМ методом for_each
+```
 
 ### Задание 5
 ![Скриншот 29-03-2024 105952](https://github.com/HZTV/08-ansible-02-playbook/assets/149588305/26549304-c638-407b-b78b-f24a006c0857)
