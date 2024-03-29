@@ -29,6 +29,6 @@ ${i["name"]}:
       ansible_user: ubuntu
   %{endfor}
   EOT
-  filename = "inventory/prod.yml" # Путь до in
+  filename = "inventory/prod.yml" # Создадим prod.yml 
 
 }
